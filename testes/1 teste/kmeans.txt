@@ -1,0 +1,86 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 12 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     pokemonNew-weka.filters.unsupervised.attribute.Remove-R4-6-weka.filters.unsupervised.attribute.Remove-R5-10
+Instances:    942
+Attributes:   4
+              Pokemon
+              Tipo1
+              Tipo2
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 29
+Within cluster sum of squared errors: 40.227072089164444
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3          4          5          6          7          8          9         10         11
+                 (942)       (85)       (98)       (50)       (92)       (80)       (70)       (57)       (49)      (117)       (86)       (72)       (86)
+==========================================================================================================================================================
+Pokemon          471.5   836.2118   152.4184     235.48   484.2717   201.9875   726.7714   332.7719   264.3469   654.4274   190.9651   737.4306   660.1279
+Tipo1            8.655     4.8353     3.0918      11.56     5.4891     9.1625    16.1143    15.8772      3.102     8.5897    14.7907    13.5833     2.1279
+Tipo2           7.6858        4.8     3.6122       2.88     5.0761      9.475       14.2     6.6842    12.6531    11.5385    15.0116     3.7778     2.3372
+
+
+
+
+Time taken to build model (full training data) : 0.05 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 0       85 (  9%)
+ 1       98 ( 10%)
+ 2       50 (  5%)
+ 3       92 ( 10%)
+ 4       80 (  8%)
+ 5       70 (  7%)
+ 6       57 (  6%)
+ 7       49 (  5%)
+ 8      117 ( 12%)
+ 9       86 (  9%)
+10       72 (  8%)
+11       86 (  9%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+  0  1  2  3  4  5  6  7  8  9 10 11  <-- assigned to cluster
+  0  0  0  0  0  1  0  0  0  0  0  0 | 1
+  1  0  3  1  1  1  1  0  4  2  2  1 | 2
+  2  1  1  0  1  0  1  0  3  1  0  0 | 3
+ 29 35 10 30 21 20 11  9 26 17 25 36 | 4
+  1  1  1  2  1  1  6  2  5  5  2  0 | 5
+  6  0  3  7  5  1  3  3  9  4  3  8 | 6
+  6  2  1  1  2  8  9  7  8  2  4  1 | 7
+ 16 25 13 22  9  4  1 11 18 12  9 13 | 8
+ 15  9 10  9 12 17 11  7 28 15 10 13 | 9
+  0  6  1  4 11  4  3  3  4 13  5  0 | 10
+  3  7  4  2  5  4  4  4  5  7  4  1 | 11
+  6 12  3 14 12  9  7  3  7  8  8 13 | 12
+
+Cluster  0 <-- 3
+Cluster  1 <-- 8
+Cluster  2 <-- 2
+Cluster  3 <-- 6
+Cluster  4 <-- 12
+Cluster  5 <-- 1
+Cluster  6 <-- 5
+Cluster  7 <-- 7
+Cluster  8 <-- 9
+Cluster  9 <-- 10
+Cluster 10 <-- 11
+Cluster 11 <-- 4
+
+Incorrectly clustered instances :	798.0	 84.7134 %
+

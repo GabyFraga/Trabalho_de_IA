@@ -1,0 +1,280 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     pokemonNew-weka.filters.unsupervised.attribute.Remove-R4-6
+Instances:    942
+Attributes:   10
+              Pokemon
+              Tipo1
+              Tipo2
+              class
+              HP
+              Atk
+              Def
+              SpA
+              SpD
+              Spe
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -0.22024901726008445
+    Node 1    0.6093991858386203
+    Node 2    -0.38471012018038664
+    Node 3    -0.8677586888761639
+    Node 4    -0.8998399620064713
+    Node 5    1.3731185120477423
+    Node 6    0.7987668542858728
+    Node 7    -1.0201572083074135
+    Node 8    -0.7335589492205958
+    Node 9    -0.7684145872309637
+    Node 10    -0.7101129342996121
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.20338133230950803
+    Attrib Pokemon    0.8167441132574186
+    Attrib Tipo1    -2.543343650988598
+    Attrib Tipo2    3.5736776011896034
+    Attrib class=1    0.9998267095921175
+    Attrib class=2    1.7985931013510528
+    Attrib class=3    1.964541109249978
+    Attrib class=4    -2.3163064248336562
+    Attrib class=5    0.7074155958882202
+    Attrib class=6    -0.26570237695738425
+    Attrib class=7    -0.9884712646244618
+    Attrib class=8    -0.17084998439188503
+    Attrib class=9    -0.2211653093349251
+    Attrib class=10    2.1867309173180765
+    Attrib class=11    0.6665936128680477
+    Attrib class=12    -2.2613719242937504
+    Attrib HP    -3.5294270075867495
+    Attrib Atk    -0.41765213683604707
+    Attrib Def    -2.7331344186973565
+    Attrib SpA    2.8597299377878973
+    Attrib SpD    0.2433253962948974
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.40825077203265514
+    Attrib Pokemon    -0.989792849307565
+    Attrib Tipo1    -0.3869660386750979
+    Attrib Tipo2    0.6691181141790449
+    Attrib class=1    0.3015056768484945
+    Attrib class=2    -0.44301171155404584
+    Attrib class=3    -0.48507938436194353
+    Attrib class=4    1.870042054192265
+    Attrib class=5    0.004600820565863225
+    Attrib class=6    -1.3869853554996483
+    Attrib class=7    1.8114722796773175
+    Attrib class=8    0.043520632015521844
+    Attrib class=9    1.5527809381695796
+    Attrib class=10    -0.48554033312014233
+    Attrib class=11    -0.6108992644217607
+    Attrib class=12    1.6647206963345629
+    Attrib HP    2.2283193342474297
+    Attrib Atk    -7.135091363514961
+    Attrib Def    10.125106865321582
+    Attrib SpA    -1.7626555912852613
+    Attrib SpD    -3.2443200731220156
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.4920237481338038
+    Attrib Pokemon    2.524256960403229
+    Attrib Tipo1    -0.9613201748864394
+    Attrib Tipo2    -0.3683017467881022
+    Attrib class=1    0.17582446763667942
+    Attrib class=2    0.7131768257199256
+    Attrib class=3    1.5397405161354258
+    Attrib class=4    1.7667791558254582
+    Attrib class=5    -1.340256048098744
+    Attrib class=6    0.8341571061285057
+    Attrib class=7    -0.8722662590399153
+    Attrib class=8    2.0210186778309573
+    Attrib class=9    0.7006713663449774
+    Attrib class=10    -0.1441196971504267
+    Attrib class=11    0.39635425799641305
+    Attrib class=12    -1.2085545718975979
+    Attrib HP    2.13945702760554
+    Attrib Atk    -4.315405912351533
+    Attrib Def    0.979444280254118
+    Attrib SpA    8.202924025202455
+    Attrib SpD    1.6052667158770875
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.8787073766176049
+    Attrib Pokemon    -5.036238360570049
+    Attrib Tipo1    -4.885144435819128
+    Attrib Tipo2    2.6768825473682294
+    Attrib class=1    0.7953721914945673
+    Attrib class=2    0.24805126381287457
+    Attrib class=3    0.06937697264079683
+    Attrib class=4    -1.0079581007865164
+    Attrib class=5    2.8541718762779604
+    Attrib class=6    1.3722478801600833
+    Attrib class=7    0.7768593490958176
+    Attrib class=8    2.1825969411633994
+    Attrib class=9    1.4317287401474104
+    Attrib class=10    -0.9114737333426014
+    Attrib class=11    0.9376655194020223
+    Attrib class=12    -0.0722972565344126
+    Attrib HP    1.0134868333501645
+    Attrib Atk    -0.37117512065153524
+    Attrib Def    0.6356390424378372
+    Attrib SpA    -0.6575805815047158
+    Attrib SpD    4.355884645213632
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.9165846965894178
+    Attrib Pokemon    1.024346141770947
+    Attrib Tipo1    0.3650893052391584
+    Attrib Tipo2    -1.1084607884219377
+    Attrib class=1    2.0559484773600003
+    Attrib class=2    1.0849624721495112
+    Attrib class=3    0.37150933937657704
+    Attrib class=4    -1.2127065896385385
+    Attrib class=5    2.117271395939097
+    Attrib class=6    1.0872835608058113
+    Attrib class=7    1.7526030599192666
+    Attrib class=8    -1.2346694318559885
+    Attrib class=9    0.11118072348313358
+    Attrib class=10    0.4720402551582216
+    Attrib class=11    1.355082640852837
+    Attrib class=12    0.9505187643281856
+    Attrib HP    -2.8622043580697105
+    Attrib Atk    2.093349922132509
+    Attrib Def    -4.9825812639850575
+    Attrib SpA    0.30834589935267503
+    Attrib SpD    -0.6588206316727417
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.3894205888578173
+    Attrib Pokemon    -5.35237930159273
+    Attrib Tipo1    1.6487466908522712
+    Attrib Tipo2    -0.7330907308383644
+    Attrib class=1    1.566342646290492
+    Attrib class=2    0.13991842418563985
+    Attrib class=3    0.47323727247511976
+    Attrib class=4    -0.04975553771367808
+    Attrib class=5    0.5188538977159961
+    Attrib class=6    2.793600216443085
+    Attrib class=7    4.075800091804368
+    Attrib class=8    -0.5234931148852019
+    Attrib class=9    2.779161936186457
+    Attrib class=10    0.06143909818230197
+    Attrib class=11    2.896215208443818
+    Attrib class=12    -0.16697519302310992
+    Attrib HP    -4.9630572206294
+    Attrib Atk    -1.5957655422439736
+    Attrib Def    -2.9883750935206796
+    Attrib SpA    -2.0343263336607307
+    Attrib SpD    -3.7247159821866336
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.9874993153974835
+    Attrib Pokemon    -2.4207670222706628
+    Attrib Tipo1    5.0923754015195595
+    Attrib Tipo2    0.9083418443875199
+    Attrib class=1    0.5141918251963975
+    Attrib class=2    0.9033723807802354
+    Attrib class=3    1.7472927513866068
+    Attrib class=4    1.384553701141907
+    Attrib class=5    0.665620617660795
+    Attrib class=6    0.1931362185218265
+    Attrib class=7    1.0280057902666686
+    Attrib class=8    1.040650451623533
+    Attrib class=9    1.1098467463301245
+    Attrib class=10    -0.5567864492520166
+    Attrib class=11    1.143846485323644
+    Attrib class=12    0.8438628483855427
+    Attrib HP    0.08554481992889323
+    Attrib Atk    1.820067533419045
+    Attrib Def    -1.933458005481852
+    Attrib SpA    0.6838625502523799
+    Attrib SpD    -0.5991561511412931
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.9892923081575816
+    Attrib Pokemon    0.5968917387822698
+    Attrib Tipo1    -0.6040893042013674
+    Attrib Tipo2    -1.2638631238652518
+    Attrib class=1    0.9605581944353716
+    Attrib class=2    0.7244266288948074
+    Attrib class=3    0.8556452491677712
+    Attrib class=4    2.19028851673454
+    Attrib class=5    0.3116255083821924
+    Attrib class=6    0.16233042113118265
+    Attrib class=7    -0.21407135385302062
+    Attrib class=8    -0.1792797479197581
+    Attrib class=9    2.510695068071387
+    Attrib class=10    0.32022565255045565
+    Attrib class=11    -0.19402984061364262
+    Attrib class=12    2.4335622117268763
+    Attrib HP    3.2475273719063464
+    Attrib Atk    0.9829613565097518
+    Attrib Def    -1.3907477708083094
+    Attrib SpA    -3.7731178762835813
+    Attrib SpD    -2.5422363131442802
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.34586013087938633
+    Attrib Pokemon    -0.7088368920520998
+    Attrib Tipo1    0.6659053760936882
+    Attrib Tipo2    -0.8957065073467187
+    Attrib class=1    0.29315015032879327
+    Attrib class=2    0.01001749275941153
+    Attrib class=3    0.03168395174771253
+    Attrib class=4    2.6678095588295285
+    Attrib class=5    1.3112414753391444
+    Attrib class=6    1.742528426177048
+    Attrib class=7    -1.3695093706321828
+    Attrib class=8    0.17474431044624558
+    Attrib class=9    -0.8801426907440926
+    Attrib class=10    -1.2303567327016784
+    Attrib class=11    -1.385339091951039
+    Attrib class=12    2.3487024712435915
+    Attrib HP    3.7223166413820925
+    Attrib Atk    0.3092092521404417
+    Attrib Def    0.8164250289122549
+    Attrib SpA    -0.244897018270396
+    Attrib SpD    1.2979633125029655
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.7560374601795045
+    Attrib Pokemon    3.7509993345673935
+    Attrib Tipo1    -2.2129236313467624
+    Attrib Tipo2    4.022701302830748
+    Attrib class=1    0.6229165291595024
+    Attrib class=2    -0.12484787454571852
+    Attrib class=3    -0.3176258063699693
+    Attrib class=4    2.2894492663444854
+    Attrib class=5    0.38091735271159555
+    Attrib class=6    1.9392951313029072
+    Attrib class=7    -0.687367611647161
+    Attrib class=8    2.3558087522928948
+    Attrib class=9    -0.9846220629044637
+    Attrib class=10    0.5626344126945751
+    Attrib class=11    2.508759513083052
+    Attrib class=12    -0.9685518677903813
+    Attrib HP    -0.17116086710126327
+    Attrib Atk    1.9261915391634876
+    Attrib Def    -0.151513615982461
+    Attrib SpA    -0.08228479390358824
+    Attrib SpD    -0.1869915920057687
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 1.91 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.4781
+Mean absolute error                     23.2479
+Root mean squared error                 32.2814
+Relative absolute error                 94.043  %
+Root relative squared error            108.6619 %
+Total Number of Instances              942     
+
